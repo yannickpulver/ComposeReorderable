@@ -1,5 +1,5 @@
 # Compose LazyList/Grid reorder
-[![Latest release](https://img.shields.io/github/v/release/aclassen/ComposeReorderable?color=brightgreen&label=latest%20release)](https://github.com/aclassen/ComposeReorderable/releases/latest)
+[![Latest release](https://img.shields.io/github/v/release/yannickpulver/ComposeReorderable?color=brightgreen&label=latest%20release)](https://github.com/yannickpulver/ComposeReorderable/releases/latest)
 
 A Jetpack Compose (Android + Desktop) modifier enabling reordering by drag and drop in a LazyList and LazyGrid.
 
@@ -9,7 +9,7 @@ A Jetpack Compose (Android + Desktop) modifier enabling reordering by drag and d
 
 ```
 dependencies {
-    implementation("org.burnoutcrew.composereorderable:reorderable:<latest_version>")
+    implementation("io.github.yannickpulver.composereorderable:reorderable:<latest_version>")
 }
 ```
 
