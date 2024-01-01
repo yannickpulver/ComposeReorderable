@@ -8,13 +8,15 @@ plugins {
 }
 
 group = "io.github.yannickpulver.composereorderable"
-version = "0.9.7"
+version = "0.9.8"
 
 kotlin {
     jvm()
     macosArm64()
     macosX64()
-    ios()
+    iosX64()
+    iosArm64()
+    iosSimulatorArm64()
     js(IR) {
         browser()
         binaries.executable()
