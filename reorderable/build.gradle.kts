@@ -43,8 +43,8 @@ publishing {
                 val snapshotsRepoUrl = uri("https://s01.oss.sonatype.org/content/repositories/snapshots/")
                 url = if (version.toString().endsWith("SNAPSHOT")) snapshotsRepoUrl else releasesRepoUrl
                 credentials {
-                    username = extra.properties.getOrDefault("ossrh.Username", "") as String
-                    password = extra.properties.getOrDefault("ossrh.Password", "") as String
+                    username = System.getenv("ORG_GRADLE_PROJECT_mavenCentralUsername") ?: extra.properties.getOrDefault("ossrhUsername", "") as String
+                    password = System.getenv("ORG_GRADLE_PROJECT_mavenCentralPassword") ?: extra.properties.getOrDefault("ossrhPassword", "") as String
                 }
             }
         }
