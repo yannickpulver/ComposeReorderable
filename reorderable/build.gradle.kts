@@ -7,7 +7,7 @@ plugins {
     id("signing")
 }
 
-group = "org.burnoutcrew.composereorderable"
+group = "io.github.yannickpulver.composereorderable"
 version = "0.9.7"
 
 kotlin {
@@ -61,14 +61,14 @@ publishing {
                         url.set("https://opensource.org/licenses/Apache-2.0")
                     }
                 }
-                url.set("https://github.com/aclassen/ComposeReorderable")
+                url.set("https://github.com/yannickpulver/ComposeReorderable")
                 issueManagement {
                     system.set("Github")
-                    url.set("https://github.com/aclassen/ComposeReorderable/issues")
+                    url.set("https://github.com/yannickpulver/ComposeReorderable/issues")
                 }
                 scm {
-                    connection.set("https://github.com/aclassen/ComposeReorderable.git")
-                    url.set("https://github.com/aclassen/ComposeReorderable")
+                    connection.set("https://github.com/yannickpulver/ComposeReorderable.git")
+                    url.set("https://github.com/yannickpulver/ComposeReorderable")
                 }
                 developers {
                     developer {
